@@ -1,9 +1,10 @@
-import styles from './page.module.css'
+import styles from './page.module.css';
+import {FigmaEmbed} from '~/components/FigmaEmbed/FigmaEmbed';
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <h1>Todo</h1>
-    </main>
-  )
+	return (
+		<main className={styles.main}>
+			<FigmaEmbed/>
+		</main>
+	);
 }
