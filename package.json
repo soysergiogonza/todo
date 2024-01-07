@@ -9,12 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@excalidraw/excalidraw": "^0.17.2",
     "@reduxjs/toolkit": "^2.0.1",
     "next": "14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-figma-embed": "^1.0.1",
     "react-redux": "^9.0.4"
   },
   "devDependencies": {
