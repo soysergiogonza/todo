@@ -6,13 +6,13 @@ const Header = () => {
 		<header className="header">
 			<nav className="nav">
 				<ul className="menu">
-					<NavItem url="/">Home<span>.</span></NavItem>
+					<NavItem url="/">Home</NavItem>
 					<NavItem url="/">
 						<picture className="logo">
 							<img src="/logo.svg" alt=""/>
 						</picture>
 					</NavItem>
-					<NavItem url="/tasklist">Task List<span>.</span></NavItem>
+					<NavItem url="/tasklist">Task List</NavItem>
 				</ul>
 			</nav>
 		</header>
