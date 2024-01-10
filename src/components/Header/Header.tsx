@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import './Header.css';
 import {NavItem} from '~/components/NavItem/NavItem';
 
@@ -7,9 +8,9 @@ const Header = () => {
 			<nav className="nav">
 				<ul className="menu">
 					<NavItem url="/">Home</NavItem>
-					<NavItem url="/">
+					<NavItem url="">
 						<picture className="logo">
-							<img src="/logo.svg" alt=""/>
+							<Image src="/logo.svg" alt="" width='32' height={32}/>
 						</picture>
 					</NavItem>
 					<NavItem url="/tasklist">Task List</NavItem>

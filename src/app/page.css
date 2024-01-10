@@ -1,6 +1,6 @@
-img {
-	width: 100%;
-}
+/*img {*/
+/*	width: 100%;*/
+/*}*/
 
 .badge {
 	display: flex;
@@ -77,7 +77,8 @@ img {
 			cursor: pointer;
 			font-weight: bold;
 			padding: 0.5em;
-			width: 400px;
+			width: 100%;
+			max-width: 400px;
 			margin-bottom: 0.5em;
 		}
 		
@@ -99,11 +100,7 @@ img {
 					font-weight: 700;
 				}
 			}
-			
-			img {
-				max-width: 700px;
-			}
-			
+		
 			a {
 				color: #FFF;
 				text-decoration: underline;
@@ -111,7 +108,8 @@ img {
 		}
 		
 		img {
-			width: 700px;
+			width: 100%;
+			max-width: 700px;
 		}
 		
 	}
