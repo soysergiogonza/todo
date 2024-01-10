@@ -6,17 +6,18 @@ import {usePathname} from 'next/navigation';
 
 import '../Header/Header.css';
 
-import {NavItem} from '../../../interfaces/interfaces';
+interface Props {
+	children: JSX.Element | JSX.Element[] | string;
+	url: string;
+}
 
-const NavItem = ({url, children}: NavItem): JSX.Element => {
+export const NavItem = ({url, children}: Props): JSX.Element => {
 	const pathname = usePathname() === url;
 	return (
-		<li className={`nav-item ${pathname ? 'active' : ''}`}>
+		<li className={`${pathname ? 'active' : ''}`}>
 			<Link href={url}>
 				{children}
 			</Link>
 		</li>
 	);
 };
-
-export {NavItem};
