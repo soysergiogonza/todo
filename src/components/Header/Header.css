@@ -1,11 +1,10 @@
 .header {
 	height: 60px;
-	/*max-width: 390px;*/
 	display: flex;
 	align-items: center;
-	padding: 3rem 0;
 	border-bottom: 2px solid #0FF1B3;
 	margin: 0 auto;
+	margin-block-end: 2rem;
 	
 	.nav {
 		
@@ -27,17 +26,21 @@
 				align-items: center;
 				justify-content: center;
 				cursor: pointer;
-				/*background: #0FF1B3;*/
 				transition: all 0.3s ease;
 				border-radius: 1rem;
 				
 				&:hover {
 					color: #DC143C;
+					
+					a {
+						color: #DC143C;
+					}
 				}
 				
 				a {
 					font-weight: 900;
 					font-size: 1.2rem;
+					color: #0FF1B3;
 					
 					.logo {
 						width: 3rem;
@@ -52,12 +55,10 @@
 					}
 				}
 			}
-			
-			
 		}
 	}
 }
 
 .active {
-	color: #0FF1B3
+	color: #0FF1B3;
 }
