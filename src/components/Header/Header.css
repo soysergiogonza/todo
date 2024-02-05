@@ -4,10 +4,8 @@
 	align-items: center;
 	border-bottom: 2px solid #0FF1B3;
 	margin: 0 auto;
-	margin-block-end: 2rem;
 	
 	.nav {
-		
 		width: 100%;
 		max-width: 390px;
 		margin: 0 auto;
@@ -38,15 +36,7 @@
 				a {
 					font-weight: 900;
 					font-size: 1.2rem;
-					
-					/*.logo {
-						width: 3rem;
-						
-						img {
-							width: 100%;
-						}
-					}*/
-					
+		
 					span {
 						color: #0FF1B3;
 					}
