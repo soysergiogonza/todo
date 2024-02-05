@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-		<body className={roboto.className}
+		<body className={roboto.className} suppressHydrationWarning={true}
 		      style={{padding: '0 24px', maxWidth: '1366px', margin: '0 auto'}}>
 		<Header/>
 		{children}</body>

@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import './page.css';
+import {Hero} from '~/components/Hero';
 
 export default function Home() {
 	return (
 		<main>
-			<section className='badge'>
+			<Hero/>
+			{/*	<section className='badge'>
 				<div className='badge__line'></div>
 				<div className='badge__info'>
 					<picture className='badge__info-logo'>
@@ -51,7 +51,7 @@ export default function Home() {
 						style={{width: '100%', height: '100%'}}
 					/>
 				</details>
-			</section>
+			</section>*/}
 		</main>
 	);
 }

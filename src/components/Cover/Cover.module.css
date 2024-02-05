@@ -1,0 +1,26 @@
+.picture {
+	width: 100%;
+	display: block;
+	
+	.cover {
+		display: block;
+		object-fit: cover;
+		width: 100%;
+		opacity: 1;
+		object-position: center 50%;
+		
+		@media (min-width: 500px) {
+			height: 16vh;
+		}
+		
+		@media (min-width: 600px) {
+			height: 20vh;
+		}
+		
+		@media (min-width: 768px) {
+			height: 25vh;
+		}
+	}
+}
+
+

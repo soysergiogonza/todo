@@ -1,17 +1,26 @@
+:root {
+  --text-color: #fff;
+  --special-span: #0ff1b3;
+  --info-badge-color: #4c95f7;
+  color: var(--text-color);
+}
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
-	color: #FFF;
+  text-decoration: none;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
- body {
-	 background-color: #1B1B1F;
- }
+
+body {
+  background-color: #1b1b1f;
+}
+
